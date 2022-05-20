@@ -1,0 +1,27 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--color-header-mobile);
+
+    padding: 8px 16px;
+
+    box-shadow: var(--shadows);
+
+}
+
+.cabecalho__menu i::before {
+    content: "\e904";
+    font-size: 1.5rem;
+
+}
+
+.cabecalho__notificacao i::before {
+    content: "\e906";
+    font-size: 1.5rem;
+}
+
+.cabecalho__logo{
+    width: 2.5rem;
+}

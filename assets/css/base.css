@@ -1,0 +1,33 @@
+:root{
+    --color-body: #1D232A;
+    --color-header: #1D232A;
+    --color-header-mobile: #15191C;
+    --color-menu-lateral: #15191C;
+    --color-cartao: #2C343A;
+    --color-font: #FFFFFF;
+    --color-font-alternativa: #95999C;
+    --color-link: #0480DC;
+    --color-botton: #0480DC;
+
+    --shadows: 0px 4px 4px rgba(0, 0, 0, 0.16);
+
+    --Open-sans: 'Open Sans', sans-serif, 'icones' ;
+    
+}
+
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+
+
+body{
+    background-color: var(--color-body);
+
+    color: var(--color-font);
+
+    font-family: var(--Open-sans);
+    
+}
+
